@@ -2,7 +2,30 @@
 
 ## Basic Operators
 
+1. Selection $\sigma$. 
+    - eg. Select all authors called "May": 
+    - $\sigma_{name=May}(Author)$
+2. Projection $\pi$. 
+    - eg. Report **bookID** and **title** of all books
+    - $\pi_{bookID, title}(Book)$
+4. Union $\cup$. 
+    - eg. Find all names in CD and DVD tables
+    - $\pi_{name}(CD) \cup \pi_{name}(DVD)$
+6. Set Difference -. 
+    - eg. Find ID of students who haven't submitted assignment
+    - $\pi_{studentID}(Student) - \pi_{studentID}(Submit)$
+8. Cartesian Product $\times$.
+    - eg. Display the date of tutorials of the course
+    - $\pi_{Course.date}(\sigma_{Course.name=xxx}(\sigma_{Course.courseID=Tutorial.courseID}(Course \times Tutorial)))$
+10. Rename $\rho$.
+
 ## Additional Operators
+
+1. Set Intersection $\cap$.
+2. Natural Join $\Join$.
+3. (Left Outer Join/ Right Outer Join)
+4. Assignment $\leftarrow$.
+5. Division $\div$.
 
 ## Extended Operators
 
