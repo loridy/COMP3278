@@ -34,7 +34,7 @@
 
 ## Attribute Set Closure ##
 * Definition
-  * closure of $\alpha$($\alpha^{+}$) is the **set of attributes** that can be functionally determined by α
+  * closure of $\alpha$(\alpha^{+}$) is the **set of attributes** that can be functionally determined by α
   * eg. $F = \lbrace A \rightarrow B, B \rightarrow C\rbrace$
   * $\lbrace A \rbrace ^{+} = \lbrace A, B, C \rbrace$
 * Computation
@@ -46,7 +46,7 @@
   * Calculate FD closure $F^{+}$, which is an important tool in database normalization 
     * (eg. The Boyce-Codd normal form BCNF.)
 
-## FD Closure $F^{+}$##
+## FD Closure $F^{+}$ ##
 * Definition
   * The set of all functional dependencies that can be logically implied by F
 * Step1: Treat every subset of R as $\alpha$
