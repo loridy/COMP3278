@@ -34,7 +34,7 @@
 
 ## Attribute Set Closure ##
 * Definition
-  * closure of $\alpha$(\alpha^{+}$) is the **set of attributes** that can be functionally determined by α
+  * closure of $\alpha$( $\alpha^{+}$ ) is the **set of attributes** that can be functionally determined by α
   * eg. $F = \lbrace A \rightarrow B, B \rightarrow C\rbrace$
   * $\lbrace A \rbrace ^{+} = \lbrace A, B, C \rbrace$
 * Computation
