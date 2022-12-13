@@ -9,6 +9,7 @@
     - eg. Report **bookID** and **title** of all books
     - $\pi_{bookID, title}(Book)$
 4. Union $\cup$. 
+    - must have same attributes
     - eg. Find all names in CD and DVD tables
     - $\pi_{name}(CD) \cup \pi_{name}(DVD)$
 6. Set Difference -. 
